@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  padding: 0;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;   
+}
+main{
+  height: auto;
+  width: 100%;
+  background-image: url("https://cdn.pixabay.com/index/2023/10/30/03-25-44-707_1920x550.jpg");
+}
+.Navbar{
+  height: auto;
+  width: 100%;
+  color: white;
+
+}
+.navbar{
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navlist{
+  list-style: none;
+  margin-left: auto;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+#btn1{
+  color: #fff;
+  height: 40px;
+  width: 100px;
+  border-radius: 30px;
+  background-color: rgb(71, 186, 209);
+  font-size: 17px;
+  padding: 10px;
+}
+
+#btn2{
+  color: #fff;
+  height: 40px;
+  width: 100px;
+  border-radius: 30px;
+  background-color: rgb(80, 183, 80);
+  font-size: 17px;
+  padding: 10px;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+
+.navbar ruby,rt{
+  font-size: 20px;
+  margin-left: 40px;
+ 
+}
+.secimg{
+  height: 500px;
+  width: auto;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  
+
+  
+}
+
+.secimg img:hover{
+  scale: 1.2;
+
+}
+
+.Header{
+  height: 300px;
+  width: 100%;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.Header h1{
+  font-size: 40px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Header input{
+  background-color: #fff;
+  border-radius: 30px;
+  height: 50px;
+  width: 60%;
+  font-size: 18px;
+  text-align: center;
 }
